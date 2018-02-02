@@ -1,0 +1,28 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "this is a web scrapper",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "nodejs": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gotogo"
+  },
+  "author": "Youness",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jaygem/top-chef.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jaygem/top-chef/issues"
+  },
+  "homepage": "https://github.com/Jaygem/top-chef#readme"
+}
