@@ -1,10 +1,4 @@
-var express = require('express');
-var fs = require('fs');
-var request = require('request');
-var cheerio = require('cheerio');
-var app     = express();
-
-app.get('/scrape', function(req, res){
+function michelinScrapper(){
     // The URL we will scrape from - in our example Anchorman 2.
 
     url = 'https://restaurant.michelin.fr/restaurants/france/restaurants-1-etoile-michelin/restaurants-2-etoiles-michelin/restaurants-3-etoiles-michelin/';
@@ -69,10 +63,9 @@ app.get('/scrape', function(req, res){
            
     }
     console.log(JSON.stringify(arrayOfRestaurants)); 
-})
+}
 
-
-app.get('/scrape2', function(req, res){
+function LafourchetteScrapper(){
     // The URL we will scrape from - in our example Anchorman 2.
 
     url = 'https://restaurant.michelin.fr/restaurants/france/restaurants-1-etoile-michelin/restaurants-2-etoiles-michelin/restaurants-3-etoiles-michelin/';
@@ -147,4 +140,4 @@ app.get('/scrape2', function(req, res){
            
     }
     console.log(JSON.stringify(arrayOfRestaurants)); 
-})
+}
