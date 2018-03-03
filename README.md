@@ -1,1 +1,1 @@
-To run the app, just go to ./Scrapper/scrapper and run the commande 'node tools.js'
+To run the app, just go to ./Scrapper/scrapper and run the command 'node tools.js'
